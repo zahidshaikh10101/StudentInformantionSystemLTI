@@ -4,13 +4,11 @@ public class Customer {
 	int customerId;
 	String customerName;
 	
-	public Customer(String customerName) {
-		super();
-		this.customerName = customerName;
+	public int getCustomerId() {
+		return customerId;
 	}
 
-	public Customer(int customerId) {
-		super();
+	public void setCustomerId(int customerId) {
 		this.customerId = customerId;
 	}
 
